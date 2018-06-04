@@ -1,2 +1,2 @@
 # Socialize
-A Social Web Application built in Asp.Net C# for communities / organizations / institutions. It has many features incorporated in it.
+It a web application to socialize in a particular community. It is developed using Asp.net C# . Collaborations and contributions are welcome.

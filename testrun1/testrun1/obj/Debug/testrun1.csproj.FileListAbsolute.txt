@@ -1,0 +1,10 @@
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\bin\testrun1.dll
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\bin\testrun1.pdb
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1.dll
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1.pdb
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1.csprojResolveAssemblyReference.cache
+C:\Users\Sapphire\documents\visual studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1.csproj.GenerateResource.Cache
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\SimpleChat.Global.resources
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1.TheChatScreenWin.resources
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\obj\Debug\testrun1._Default.resources
+C:\Users\Sapphire\Documents\Visual Studio 2010\Projects\testrun1\testrun1\bin\ASPSnippets.SmsAPI.dll

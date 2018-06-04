@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79EE21DF-C213-4F1E-8D5B-BAC0E15B2901}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>testrun1</RootNamespace>
+    <AssemblyName>testrun1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASPSnippets.SmsAPI">
+      <HintPath>..\..\..\..\..\Downloads\ASPSnippets.SmsAPI\ASPSnippets.SmsAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\Downloads\System.Net.Http\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http">
+      <HintPath>..\..\..\..\..\Downloads\System.Web.Http\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="14212069_1189571647781466_3460601388952567262_n.jpg" />
+    <Content Include="addbibleplan.aspx" />
+    <Content Include="addjob.aspx" />
+    <Content Include="attendance.aspx" />
+    <Content Include="bible.aspx" />
+    <Content Include="bibleplans.aspx" />
+    <Content Include="images\bin\SimpleChat.dll" />
+    <Content Include="images\bin\testrun1.dll" />
+    <Content Include="images\bin\testrun1.pdb" />
+    <Content Include="buy.aspx" />
+    <Content Include="camp.aspx" />
+    <Content Include="chart.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="donations.aspx" />
+    <Content Include="editdetails.aspx" />
+    <Content Include="edititem.aspx" />
+    <Content Include="editjob.aspx" />
+    <Content Include="editplan.aspx" />
+    <Content Include="events.aspx" />
+    <Content Include="feed.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\lato-bold-webfont.svg" />
+    <Content Include="fonts\lato-light-webfont.svg" />
+    <Content Include="fonts\lato-medium-webfont.svg" />
+    <Content Include="fonts\lato-regular-webfont.svg" />
+    <Content Include="gallery.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="home.aspx" />
+    <Content Include="images\10259781_980741885331111_4742022010604529624_n.jpg" />
+    <Content Include="images\10312557_980741218664511_7501760761195336231_n.jpg" />
+    <Content Include="images\10330262_980741681997798_8407036793969043292_n.jpg" />
+    <Content Include="images\10350349_980739755331324_5509197800332378969_n.jpg" />
+    <Content Include="images\10418201_980739741997992_8657009506490494196_n.jpg" />
+    <Content Include="images\10422977_862736313798336_3980822885048592306_n.jpg" />
+    <Content Include="images\10441433_980739571998009_7052505544189735729_n.jpg" />
+    <Content Include="images\10489869_980739901997976_4869139559553762711_n.jpg" />
+    <Content Include="images\10518962_980740268664606_1266372959377716086_n.jpg" />
+    <Content Include="images\10609668_980739528664680_2579001522386768780_n.jpg" />
+    <Content Include="images\11009136_862746890463945_6704718201279963192_n.jpg" />
+    <Content Include="images\11017171_862743207130980_1209345525643571424_n.jpg" />
+    <Content Include="images\11050832_862742983797669_7091638037183775245_n.jpg" />
+    <Content Include="images\11066795_862737413798226_4616237802414442855_n.jpg" />
+    <Content Include="images\11102999_862738567131444_630220283515062474_n.jpg" />
+    <Content Include="images\11152690_862741710464463_7864874965504254463_n.jpg" />
+    <Content Include="images\11214101_862742423797725_3097772530955105736_n.jpg" />
+    <Content Include="images\11221949_958836634188303_2170394815168986708_n.jpg" />
+    <Content Include="images\11222297_862746157130685_6639734955985516317_n.jpg" />
+    <Content Include="images\11246252_862738703798097_4057383793175260889_n.jpg" />
+    <Content Include="images\11248066_862743033797664_4502585207236781521_n.jpg" />
+    <Content Include="images\11350600_862744677130833_2319430895498761852_n.jpg" />
+    <Content Include="images\11350823_862742493797718_1795507960692385324_n.jpg" />
+    <Content Include="images\11351321_862742800464354_9165692990745597697_n.jpg" />
+    <Content Include="images\11425237_880939295311371_7575621478560897542_n.jpg" />
+    <Content Include="images\12241794_958836440854989_3382528473272430720_n.jpg" />
+    <Content Include="images\12243056_958836747521625_948159100351493591_n.jpg" />
+    <Content Include="images\12278801_958836437521656_5707536413035575812_n.jpg" />
+    <Content Include="images\12376427_980741418664491_7629316572643872260_n.jpg" />
+    <Content Include="images\12391243_980741641997802_7194196625812292268_n.jpg" />
+    <Content Include="images\12391264_980740155331284_2938430436181769081_n.jpg" />
+    <Content Include="images\13934789_1152333904838574_5152272777612705719_n.jpg" />
+    <Content Include="images\1505572_1032669960138303_6877254165681176944_n.jpg" />
+    <Content Include="images\15541655_1319251101480186_8599685071689082356_n.jpg" />
+    <Content Include="images\15578827_1319254221479874_8617169583923698588_n.jpg" />
+    <Content Include="images\15589843_1319253018146661_1936884132221691040_n.jpg" />
+    <Content Include="images\16194996_1399227886815840_8332245325120314509_n.jpg" />
+    <Content Include="images\16195070_1399228226815806_3925327401711487102_n.jpg" />
+    <Content Include="images\16195368_1399227533482542_8570891920864192224_n.jpg" />
+    <Content Include="images\16195398_1399229160149046_4935545769265220158_n.jpg" />
+    <Content Include="images\16195451_1399228376815791_6358667939916888741_n.jpg" />
+    <Content Include="images\16195556_1399227160149246_5473594949696471426_n.jpg" />
+    <Content Include="images\16195604_1399227060149256_2760749292349973167_n.jpg" />
+    <Content Include="images\16195616_1399228093482486_1709299870384731988_n.jpg" />
+    <Content Include="images\16195616_1399229350149027_553684516054410450_n.jpg" />
+    <Content Include="images\16196062_1399228026815826_4184689761699655775_n.jpg" />
+    <Content Include="images\1620542_980740558664577_3367050554055499223_n.jpg" />
+    <Content Include="images\1620754_980741435331156_3759077419345766086_n.jpg" />
+    <Content Include="images\1623626_718636841541618_8475905975236417523_n.jpg" />
+    <Content Include="images\16265179_1399226626815966_441612424552562428_n.jpg" />
+    <Content Include="images\16265448_1399238893481406_2329413477854311549_n.jpg" />
+    <Content Include="images\16265485_1399227000149262_6918287189144862856_n.jpg" />
+    <Content Include="images\16298394_1399239003481395_6431215459760291120_n.jpg" />
+    <Content Include="images\16298477_1399227326815896_3276075267088481005_n.jpg" />
+    <Content Include="images\16387418_1399229733482322_270584598773211915_n.jpg" />
+    <Content Include="images\16388012_1399226816815947_4337129624961607987_n.jpg" />
+    <Content Include="images\16388105_1399226603482635_8439454716526841656_n.jpg" />
+    <Content Include="images\16406509_1399227480149214_3217490386070469913_n.jpg" />
+    <Content Include="images\16406833_1399227673482528_6636836462350188592_n.jpg" />
+    <Content Include="images\1780895_980741501997816_5431919805243368801_n.jpg" />
+    <Content Include="images\1915271_980740375331262_5178988916875956160_n.jpg" />
+    <Content Include="images\1915423_980740168664616_6543966953037639222_n.jpg" />
+    <Content Include="images\1916807_980741195331180_5157252394863275917_n.jpg" />
+    <Content Include="images\1931497_980741568664476_3506790976005703554_n.jpg" />
+    <Content Include="images\1933817_980740065331293_6573667123273545031_n.jpg" />
+    <Content Include="images\1972422_980739495331350_1919786237934205995_n.jpg" />
+    <Content Include="images\5377_980739831997983_470780197530722804_n.jpg" />
+    <Content Include="images\advancing.jpg" />
+    <Content Include="images\camp.jpg" />
+    <Content Include="images\collage1.jpg" />
+    <Content Include="images\IMG_20170308_095228.jpg" />
+    <Content Include="images\IMG_2865.jpg" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\praying.jpg" />
+    <Content Include="images\Screen-Shot-2015-12-08-at-5.04.53-PM.png" />
+    <Content Include="images\wp-1488789024494.jpg" />
+    <Content Include="images\wp-1488789033876.jpg" />
+    <Content Include="images\wp-1488789038894.jpg" />
+    <Content Include="images\wp-1488789043820.jpg" />
+    <Content Include="images\wp-1488789049611.jpg" />
+    <Content Include="images\wp-1488789061288.jpg" />
+    <Content Include="images\wp-1488789066194.jpg" />
+    <Content Include="images\wp-1488792028829.jpg" />
+    <Content Include="images\wp-1488792056051.jpg" />
+    <Content Include="images\wp-1488792066481.jpg" />
+    <Content Include="images\wp-image-1443777646png.png" />
+    <Content Include="item.aspx" />
+    <Content Include="job.aspx" />
+    <Content Include="jobsearch.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="lg.aspx" />
+    <Content Include="library.aspx" />
+    <Content Include="libraryaddbook.aspx" />
+    <Content Include="libraryedit.aspx" />
+    <Content Include="librarywarehouse.aspx" />
+    <Content Include="lighthouse.aspx" />
+    <Content Include="live.aspx" />
+    <Content Include="map.aspx" />
+    <Content Include="marriagemasala.aspx" />
+    <Content Include="orange1.gif" />
+    <Content Include="orange2.gif" />
+    <Content Include="plan.aspx" />
+    <Content Include="prayer_request.aspx" />
+    <Content Include="preachers.aspx" />
+    <Content Include="profession.aspx" />
+    <Content Include="profile.aspx" />
+    <Content Include="profile\pani.jpg" />
+    <Content Include="registeration.aspx" />
+    <Content Include="reimbursement.aspx" />
+    <Content Include="rss.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="seals.aspx" />
+    <Content Include="search.aspx" />
+    <Content Include="sell.aspx" />
+    <Content Include="SimpleChat.csproj" />
+    <Content Include="The 412.aspx" />
+    <Content Include="The412.aspx" />
+    <Content Include="TheChatScreenWin.aspx" />
+    <Content Include="user.aspx" />
+    <Content Include="viewuser.aspx" />
+    <Content Include="volunteer.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="worship.aspx" />
+    <Content Include="worshipedit.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addbibleplan.aspx.cs">
+      <DependentUpon>addbibleplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addbibleplan.aspx.designer.cs">
+      <DependentUpon>addbibleplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addjob.aspx.cs">
+      <DependentUpon>addjob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addjob.aspx.designer.cs">
+      <DependentUpon>addjob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attendance.aspx.cs">
+      <DependentUpon>attendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="attendance.aspx.designer.cs">
+      <DependentUpon>attendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bible.aspx.cs">
+      <DependentUpon>bible.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bible.aspx.designer.cs">
+      <DependentUpon>bible.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bibleplans.aspx.cs">
+      <DependentUpon>bibleplans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bibleplans.aspx.designer.cs">
+      <DependentUpon>bibleplans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buy.aspx.cs">
+      <DependentUpon>buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buy.aspx.designer.cs">
+      <DependentUpon>buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="camp.aspx.cs">
+      <DependentUpon>camp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="camp.aspx.designer.cs">
+      <DependentUpon>camp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chart.aspx.cs">
+      <DependentUpon>chart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chart.aspx.designer.cs">
+      <DependentUpon>chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donations.aspx.cs">
+      <DependentUpon>donations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donations.aspx.designer.cs">
+      <DependentUpon>donations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editdetails.aspx.cs">
+      <DependentUpon>editdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editdetails.aspx.designer.cs">
+      <DependentUpon>editdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edititem.aspx.cs">
+      <DependentUpon>edititem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edititem.aspx.designer.cs">
+      <DependentUpon>edititem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editjob.aspx.cs">
+      <DependentUpon>editjob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editjob.aspx.designer.cs">
+      <DependentUpon>editjob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editplan.aspx.cs">
+      <DependentUpon>editplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editplan.aspx.designer.cs">
+      <DependentUpon>editplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="events.aspx.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="events.aspx.designer.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feed.aspx.cs">
+      <DependentUpon>feed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feed.aspx.designer.cs">
+      <DependentUpon>feed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item.aspx.cs">
+      <DependentUpon>item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item.aspx.designer.cs">
+      <DependentUpon>item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="job.aspx.cs">
+      <DependentUpon>job.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="job.aspx.designer.cs">
+      <DependentUpon>job.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jobsearch.aspx.cs">
+      <DependentUpon>jobsearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jobsearch.aspx.designer.cs">
+      <DependentUpon>jobsearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lg.aspx.cs">
+      <DependentUpon>lg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lg.aspx.designer.cs">
+      <DependentUpon>lg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="library.aspx.cs">
+      <DependentUpon>library.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="library.aspx.designer.cs">
+      <DependentUpon>library.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libraryaddbook.aspx.cs">
+      <DependentUpon>libraryaddbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libraryaddbook.aspx.designer.cs">
+      <DependentUpon>libraryaddbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libraryedit.aspx.cs">
+      <DependentUpon>libraryedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libraryedit.aspx.designer.cs">
+      <DependentUpon>libraryedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="librarywarehouse.aspx.cs">
+      <DependentUpon>librarywarehouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="librarywarehouse.aspx.designer.cs">
+      <DependentUpon>librarywarehouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lighthouse.aspx.cs">
+      <DependentUpon>lighthouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lighthouse.aspx.designer.cs">
+      <DependentUpon>lighthouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="live.aspx.cs">
+      <DependentUpon>live.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="live.aspx.designer.cs">
+      <DependentUpon>live.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="map.aspx.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="map.aspx.designer.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="marriagemasala.aspx.cs">
+      <DependentUpon>marriagemasala.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="marriagemasala.aspx.designer.cs">
+      <DependentUpon>marriagemasala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="plan.aspx.cs">
+      <DependentUpon>plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="plan.aspx.designer.cs">
+      <DependentUpon>plan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prayer_request.aspx.cs">
+      <DependentUpon>prayer_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prayer_request.aspx.designer.cs">
+      <DependentUpon>prayer_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="preachers.aspx.cs">
+      <DependentUpon>preachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="preachers.aspx.designer.cs">
+      <DependentUpon>preachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profession.aspx.cs">
+      <DependentUpon>profession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profession.aspx.designer.cs">
+      <DependentUpon>profession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="registeration.aspx.cs">
+      <DependentUpon>registeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registeration.aspx.designer.cs">
+      <DependentUpon>registeration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reimbursement.aspx.cs">
+      <DependentUpon>reimbursement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reimbursement.aspx.designer.cs">
+      <DependentUpon>reimbursement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seals.aspx.cs">
+      <DependentUpon>seals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seals.aspx.designer.cs">
+      <DependentUpon>seals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sell.aspx.cs">
+      <DependentUpon>sell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sell.aspx.designer.cs">
+      <DependentUpon>sell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="The 412.aspx.cs">
+      <DependentUpon>The 412.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="The 412.aspx.designer.cs">
+      <DependentUpon>The 412.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="The412.aspx.cs">
+      <DependentUpon>The412.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="The412.aspx.designer.cs">
+      <DependentUpon>The412.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheChatScreenWin.aspx.cs">
+      <DependentUpon>TheChatScreenWin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewuser.aspx.cs">
+      <DependentUpon>viewuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewuser.aspx.designer.cs">
+      <DependentUpon>viewuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="volunteer.aspx.cs">
+      <DependentUpon>volunteer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="volunteer.aspx.designer.cs">
+      <DependentUpon>volunteer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="worship.aspx.cs">
+      <DependentUpon>worship.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="worship.aspx.designer.cs">
+      <DependentUpon>worship.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="worshipedit.aspx.cs">
+      <DependentUpon>worshipedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="worshipedit.aspx.designer.cs">
+      <DependentUpon>worshipedit.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="gallery\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="fonts\lato-bold-webfont.eot" />
+    <None Include="fonts\lato-bold-webfont.ttf" />
+    <None Include="fonts\lato-bold-webfont.woff" />
+    <None Include="fonts\lato-bold-webfont.woff2" />
+    <None Include="fonts\lato-light-webfont.eot" />
+    <None Include="fonts\lato-light-webfont.ttf" />
+    <None Include="fonts\lato-light-webfont.woff" />
+    <None Include="fonts\lato-light-webfont.woff2" />
+    <None Include="fonts\lato-medium-webfont.eot" />
+    <None Include="fonts\lato-medium-webfont.ttf" />
+    <None Include="fonts\lato-medium-webfont.woff" />
+    <None Include="fonts\lato-medium-webfont.woff2" />
+    <None Include="fonts\lato-regular-webfont.eot" />
+    <None Include="fonts\lato-regular-webfont.ttf" />
+    <None Include="fonts\lato-regular-webfont.woff" />
+    <None Include="fonts\lato-regular-webfont.woff2" />
+    <Content Include="Site2.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Default.aspx.resx">
+      <DependentUpon>Default.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheChatScreenWin.aspx.resx">
+      <DependentUpon>TheChatScreenWin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50605</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
